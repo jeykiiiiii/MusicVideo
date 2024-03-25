@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'MCR';
+    src: url('Fonts/my_chemical_romance.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: black;
+    display: absolute;
+    background-image: url(background.jpg);
+}
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    text-shadow:    0px 0px 8px rgb(136, 132, 132),
+                    0px 0px 12px rgb(128,128,128),
+                    0px 0px 16px white;
+    font-family: MCR;
+    text-align: center;
+    color: white;
+}
+.videocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+video {
+    height: 50%;
+    width: 40%;
+    border-radius: 25px;
+}
+.lyricscontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128,128,128,.8);
+    margin: auto;
+    border-radius: 20px;
+    width: 40%;
+    color: white;
+    padding: 20px;
+    font-size: 1.1em;
+}
