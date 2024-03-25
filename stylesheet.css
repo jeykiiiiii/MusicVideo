@@ -38,11 +38,11 @@ video {
     align-items: center;
     background-color: rgba(128,128,128,.8);
     margin: auto;
-    border-radius: 20px;
-    width: 40%;
+    border-radius: 10px;
+    width: 80%;
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     font-size: 1.1em;
 }
