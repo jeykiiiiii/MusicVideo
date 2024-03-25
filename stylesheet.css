@@ -42,5 +42,6 @@ video {
     width: 40%;
     color: white;
     padding: 20px;
+    text-align: center;
     font-size: 1.1em;
 }
